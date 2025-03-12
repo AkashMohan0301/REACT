@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Header from './components/header'
 
 const App = () => {
     return (
-        //JSX code
-        //Allways return a single parent element
-        //If you want to return multiple elements, wrap them in a div
-        <div className='Class1'>
-            <h1>HELLO</h1>
-        </div>
+        <>
+        <Header>
+
+        </Header>
+        </>
     )
 }
 
