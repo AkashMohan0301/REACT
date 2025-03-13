@@ -9,7 +9,8 @@ const header = () => {
 
   return (
     <div>
-      The Date is {getTheYear()}
+      The Date is {getTheYear()} <br />
+      sum is {5+10}
     </div>
   )
 }
