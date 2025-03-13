@@ -3,10 +3,13 @@ import React, { Component } from 'react'
 
 class header extends Component{
 
-  inputChangeHandler (event,name){
-    console.log(event.target.value);
-    console.log(name);
+  hello(){
+    console.log('Hello');
+  }
 
+  inputChangeHandler (event){
+    console.log(event.target.value);
+    this.hello();
   }
 
   render(){
@@ -16,7 +19,7 @@ class header extends Component{
           <div className="logo">
             Logo
           </div>
-          <input type="text" onChange={(e) => this.inputChangeHandler(e,'Akash')}/>
+          <input type="text" onChange={(e) => this.inputChangeHandler(e)}/>
         </header>
       </div>
     )
