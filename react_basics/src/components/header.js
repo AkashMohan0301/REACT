@@ -7,7 +7,7 @@ class header extends Component{
     console.log('Hello');
   }
 
-  inputChangeHandler (event){
+  inputChangeHandler = (event) => {
     console.log(event.target.value);
     this.hello();
   }
@@ -19,7 +19,7 @@ class header extends Component{
           <div className="logo">
             Logo
           </div>
-          <input type="text" onChange={(e) => this.inputChangeHandler(e)}/>
+          <input type="text" onChange={this.inputChangeHandler}/>
         </header>
       </div>
     )
