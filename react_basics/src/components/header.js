@@ -5,7 +5,8 @@ class header extends Component{
   render(){
     return (
       <div>
-        <header >
+        <header onClick={() => console.log('i was Clicked')}>
+          
           <div className="logo">
             Logo
           </div>
