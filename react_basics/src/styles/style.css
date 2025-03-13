@@ -1,0 +1,24 @@
+body{
+    margin: 0%;
+}
+
+header{
+    background: rgb(12, 152, 234);
+    text-align: center;
+}
+
+.logo{
+    color: black;
+    font-family: Anton;
+    text-align: center;
+    font-size: 40px;
+}
+
+header input {
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;   
+}
+
