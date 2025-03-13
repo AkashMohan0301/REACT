@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 
 class header extends Component{
 
-  inputChangeHandler (){
-    console.log('Input changed')
+  inputChangeHandler (event){
+    console.log(event.target.value);
   }
 
   render(){
