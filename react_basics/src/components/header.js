@@ -3,7 +3,7 @@ import React from 'react'
 const header = () => {
   return (
     <div>
-      Header
+      The Date is {Date.now()}
     </div>
   )
 }
