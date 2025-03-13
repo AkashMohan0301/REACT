@@ -1,16 +1,20 @@
 import React, { Component } from 'react'
 
+
 class header extends Component{
+
+  inputChangeHandler (){
+    console.log('Input changed')
+  }
 
   render(){
     return (
       <div>
-        <header onClick={() => console.log('i was Clicked')}>
-          
+        <header>
           <div className="logo">
             Logo
           </div>
-          <input type="text" />
+          <input type="text" onChange={this.inputChangeHandler}/>
         </header>
       </div>
     )
